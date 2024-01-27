@@ -57,6 +57,9 @@ nav li:first-child{
     justify-content: flex-start;
 }
 
+.down{
+    padding-top: 2rem;
+}
 .sidebar li {
     width: 100%;
 }
