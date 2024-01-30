@@ -640,8 +640,9 @@ justify-content: center;
 }
 
 @media (max-width: 800px){
-    body {
-        padding: 0px 0px;
+    .sidebar{
+        background-color: #100C08;
+        backdrop-filter: none;
     }
     .hideOnMobile{
         display: none;
