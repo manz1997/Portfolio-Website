@@ -68,12 +68,6 @@ nav li:first-child{
 }
 
 
-
-
-
-
-
-
 /* 
 .header {
     position: fixed;
@@ -650,10 +644,24 @@ justify-content: center;
     .menu-button{
         display: block;
     }
+    .about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+.about-text, h2, h4, p {
+text-align: center;
+}
+.about-text p {
+    padding: 1rem 1rem;
+}
 }
 
 @media (max-width: 400px) {
     .sidebar{
         width: 100%;
     }
+
 } 

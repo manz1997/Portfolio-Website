@@ -64,3 +64,7 @@ setInterval(() => {
         numberFour.innerHTML= counterFour + "%";
     }
 }, 30);
+
+
+
+
