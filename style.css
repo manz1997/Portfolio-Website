@@ -651,12 +651,26 @@ justify-content: center;
         align-items: center;
         gap: 1.5rem;
     }
-.about-text, h2, h4, p {
-text-align: center;
-}
-.about-text p {
-    padding: 1rem 1rem;
-}
+    .about-text, h2, h4, p {
+        text-align: center;
+    }
+    .about-text p {
+        padding: 1rem 1rem;
+    }
+
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .services-list{
+        flex: 1 0 8rem;
+    }
+
+
+
+
+
 }
 
 @media (max-width: 400px) {
