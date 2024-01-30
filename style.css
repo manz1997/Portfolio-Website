@@ -435,7 +435,7 @@ color: #e81cff;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    column-gap: 200px;
+    column-gap: 100px;
 }
 
 .prof{
@@ -547,17 +547,21 @@ text-align: center;
 
 .contactme{
 margin-top:100px;
+margin-left: 4rem;
+letter-spacing: 0.5rem;
 }
 .heaading04{
 font-size: 1rem;
 font-weight: 10;
 text-align: center;
 margin-top: -50px;
+
 }
 
 .contact{
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
 }
 .form-group label{
     display: flex;
@@ -639,7 +643,7 @@ justify-content: center;
     display: none;
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
     .sidebar{
         background-color: #100C08;
         backdrop-filter: none;
@@ -678,7 +682,9 @@ justify-content: center;
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
-        margin: 1.5rem 0rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+
     }
 
 
