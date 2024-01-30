@@ -228,10 +228,10 @@ color: #e81cff;
 }
 
 .about-text p{
-color: aliceblue;
-font-size: 20px;
-line-height: 1.4;
-margin-bottom: 4rem;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
 }
 
 /*  styling for the services section */
@@ -543,6 +543,8 @@ text-align: center;
 
 
 /*  ==========================styling for contact me============================ */
+
+
 .contactme{
 margin-top:100px;
 }
@@ -675,6 +677,7 @@ justify-content: center;
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
+        margin: 1.5rem 0rem;
     }
 
 
