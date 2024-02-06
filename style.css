@@ -217,7 +217,8 @@ color: #e81cff;
     color: #e81cff;
 }
 .container {
-    padding: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .services-list{
